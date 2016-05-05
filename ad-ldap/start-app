@@ -1,0 +1,6 @@
+mvn install
+rm -rf tomcat8x/webapps/my-calendar.war
+rm -rf tomcat8x/webapps/my-calendar/
+cp target/chapter05.10-calendar-1.0.war tomcat8x/webapps/my-calendar.war
+cd tomcat8x
+bin/catalina.sh run
