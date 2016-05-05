@@ -1,4 +1,4 @@
-package com.packtpub.springsecurity.dataaccess;
+package first.dataaccess;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -16,8 +16,8 @@ import org.springframework.jdbc.support.KeyHolder;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.packtpub.springsecurity.domain.Event;
-import com.packtpub.springsecurity.domain.CalendarUser;
+import first.domain.CalendarUser;
+import first.domain.Event;
 
 /**
  * A jdbc implementation of {@link EventDao}.

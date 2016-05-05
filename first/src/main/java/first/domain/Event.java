@@ -1,4 +1,4 @@
-package com.packtpub.springsecurity.domain;
+package first.domain;
 
 import java.util.Calendar;
 

@@ -1,9 +1,9 @@
-package com.packtpub.springsecurity.dataaccess;
+package first.dataaccess;
 
 import java.util.List;
 
-import com.packtpub.springsecurity.domain.Event;
-import com.packtpub.springsecurity.domain.CalendarUser;
+import first.domain.CalendarUser;
+import first.domain.Event;
 
 /**
  * An interface for managing {@link Event}'s.
