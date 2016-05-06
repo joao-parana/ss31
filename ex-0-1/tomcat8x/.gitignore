@@ -1,0 +1,11 @@
+work/*
+temp/*
+tmp/*
+logs/*.log
+logs/*.txt
+LICENSE
+NOTICE
+RELEASE-NOTES
+RUNNING.txt
+webapps/ss31-ex-0-1/
+
