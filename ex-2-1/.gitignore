@@ -1,0 +1,11 @@
+.settings/
+work/*
+temp/*
+tmp/*
+logs/*.log
+logs/*.txt
+LICENSE
+NOTICE
+RELEASE-NOTES
+RUNNING.txt
+/target/
