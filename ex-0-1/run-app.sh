@@ -3,6 +3,7 @@
 set -e
 
 APP_NAME=ss31-ex-0-1
+rm -rf tomcat8x/work/* ; rm -rf tomcat8x/temp/* ; rm -rf tomcat8x/logs/* ;rm -rf tomcat8x/webapps/$APP_NAME*
 if [ $1 = 'build' ];
 then
   mvn clean

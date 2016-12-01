@@ -2,8 +2,8 @@
 
 set -e
 
-APP_NAME=xpto
-if [ $1 = 'build' ];
+APP_NAME="ex-2-1"
+if [ $1. = 'build.' ];
 then
   mvn clean
   mvn package && rm -rf tomcat8x/webapps/$APP_NAME*
